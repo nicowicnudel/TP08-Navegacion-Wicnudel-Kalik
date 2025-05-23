@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function ScreenA2() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Pantalla Screen A2</Text>
+      <Text style={styles.text}>HOME 2</Text>
     </View>
   );
 }

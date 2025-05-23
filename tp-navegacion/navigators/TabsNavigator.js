@@ -1,8 +1,8 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import StackANavigator from './StackANavigator';
-import StackBNavigator from './StackBNavigator';
-import StackCNavigator from './StackCNavigator';
+import StackANavigator from './StackNavigatorA';
+import StackBNavigator from './StackNavigatorB';
+import StackCNavigator from './StackNavigatorC';
 import { Ionicons } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
