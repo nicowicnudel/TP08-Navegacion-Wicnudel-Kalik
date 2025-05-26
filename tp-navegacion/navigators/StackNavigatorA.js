@@ -1,4 +1,3 @@
-import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import ScreenA1 from '../screens/ScreenA1';
 import ScreenA2 from '../screens/ScreenA2';

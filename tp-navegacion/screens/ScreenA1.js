@@ -1,22 +1,25 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function ScreenA1() {
-  const navigation = useNavigation();
-
+  console.log('ScreenA1 se está mostrando');
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>HOME</Text>
-      <TouchableOpacity onPress={() => navigation.navigate('ScreenA2')}>
-        <Text style={styles.button}>Ir a HOME 2</Text>
-      </TouchableOpacity>
+      <Text style={styles.text}>Hola Info, este es el Screen 1</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  text: { fontSize: 24, marginBottom: 20 },
-  button: { color: 'blue', fontSize: 18 }
+  container: {
+    flex: 1,
+    backgroundColor: 'yellow',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text: {
+    fontSize: 24,
+    color: 'blue',
+    fontWeight: 'bold',
+  },
 });
