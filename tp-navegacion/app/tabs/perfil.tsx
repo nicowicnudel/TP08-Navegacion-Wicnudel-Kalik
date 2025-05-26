@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native';
 
-export default function HomeScreen() {
+export default function PerfilScreen() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Hola info este es el screen 1</Text>
+      <Text style={{ fontSize: 20 }}>Bienvenido al Perfil</Text>
     </View>
   );
 }
